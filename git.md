@@ -1,5 +1,5 @@
 
-# git merge
+## git merge
 
 マージした情報を残す場合、--no-ff を付与。
 
@@ -13,4 +13,26 @@ mergeの時の動きは、下記がわかりやすい。
 ツリー構造を確認。
 ```
 git log --graph
+```
+
+## git tag
+
+tag一覧。
+```
+git tag
+```
+
+注釈付きのtag作成。
+```
+git tag -a v1.0 -m 'v1.0 release'
+```
+
+特定のコミットにtag付ける場合、チェックサムを最後に付ける。
+```
+git tag -a v1.0 -m 'v1.0 release' 172476bbe8bb899f8fd7979d268284cb21df833d
+```
+
+タグをリモートに反映。
+```
+git push origin --tags
 ```
