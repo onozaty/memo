@@ -36,3 +36,35 @@ git tag -a v1.0 -m 'v1.0 release' 172476bbe8bb899f8fd7979d268284cb21df833d
 ```
 git push origin --tags
 ```
+
+## git branch
+
+branch切る。
+```
+git checkout -b fix/hoge
+```
+上と同じ。
+```
+git branch fix/hoge
+git checkout fix/hoge
+```
+
+## git diff
+
+ワーキングツリーとインデックスの差分。
+```
+git diff
+```
+
+`--chached`でインデックスとHEADの差分。(addしたものとHEADを比較したいとき)
+```
+git diff --chached
+```
+
+## git config
+
+とりあえずまず最初に。
+```
+git config --global user.name "nanashi gonbe"
+git config --global user.email nanashi@example.com
+```
