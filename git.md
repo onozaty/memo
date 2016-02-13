@@ -1,3 +1,10 @@
+## git commit
+
+変更されたファイルをインデックスに追加してコミット。
+
+```
+git commit -a
+```
 
 ## git merge
 
@@ -56,9 +63,26 @@ git checkout fix/hoge
 git diff
 ```
 
-`--chached`でインデックスとHEADの差分。(addしたものとHEADを比較したいとき)
+`--cached`でインデックスとHEADの差分。(addしたものとHEADを比較したいとき)
 ```
-git diff --chached
+git diff --cached
+```
+
+直前のコミットのdiff
+```
+git diff HEAD^ HEAD
+```
+
+## 変更を戻す
+
+ローカルでの変更を元に戻す。
+```
+git checkout .
+```
+
+addしたのを戻す。
+```
+git reset HEAD
 ```
 
 ## git config
