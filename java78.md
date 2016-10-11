@@ -5,8 +5,6 @@ Java7/8 を使うにあたって、知っておいた方がよいもの
     リソースの有効範囲をブロックで指定して、解放漏れを防ぐ。C#でいうusing。
   * **More New I/O APIs for Java (NIO.2)** [Java7]<br>
     Path/PathsとFilesは覚えておくべき。ファイル、ディレクトリ操作が改善されている。
-  * **switchでのString対応** [Java7]<br>
-    switch文の指揮にStringが使えるようになった。
   * **lambda** [Java8]<br>
     関数をそのままオブジェクトとして渡せるように書ける。無名クラスのインスタンスを作るような書き方をしなくて済む。
   * **Stream API** [Java8]<br>
@@ -17,6 +15,8 @@ Java7/8 を使うにあたって、知っておいた方がよいもの
   * **Catching Multiple Exception** [Java7]<br>
     catchで複数の例外を指定してまとめてcatchできる。
 * 低 (そういったのがあること自体は頭の中に入れておく)
+  * **switchでのString対応** [Java7]<br>
+    switch文の指揮にStringが使えるようになった。
   * **Optional** [Java8]<br>
     値がないかもしれないことを表現するクラスとしてOptional<T>が追加。
   * **Date and Time API** [Java8]<br>
