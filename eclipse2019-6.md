@@ -26,3 +26,17 @@ Help -> Install New software で、Repositoryとして下記を追加。
 選択するのは`Quick JUnit for Java Developer`のみで大丈夫。
 
 ![](eclipse2019-6_2.png)
+
+## Lombok
+
+下記からjarをダウンロード(最新バージョン1.18.8)して起動し、Eclipseのインストール先フォルダを選択してインストール。
+
+* [Download](https://projectlombok.org/download)
+
+## STS
+
+マーケットプレイスで`Spring`で検索し、`Spring Tools 4 - for Spring Boot`をインストール。
+
+## Groovy Development Tools
+
+マーケットプレイスで`Groovy`で検索し、`Groovy Development Tools`をインストール。
